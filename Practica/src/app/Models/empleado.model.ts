@@ -1,4 +1,4 @@
-﻿export class empleado {
+﻿export class Empleado {
     constructor(
         public Nombbre: string,
         public Apellidos: string,

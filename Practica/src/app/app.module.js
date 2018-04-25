@@ -12,6 +12,7 @@ var http_1 = require("@angular/http");
 var app_component_1 = require("./app.component");
 var fruta_component_1 = require("./Components/fruta.component");
 var empleado_component_1 = require("./Components/empleado.component");
+var alumno_component_1 = require("./Components/alumno.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -27,7 +28,8 @@ AppModule = __decorate([
         declarations: [
             app_component_1.AppComponent,
             fruta_component_1.FrutaComponent,
-            empleado_component_1.EmpleadoComponent
+            empleado_component_1.EmpleadoComponent,
+            alumno_component_1.AlumnoComponent
         ],
         bootstrap: [app_component_1.AppComponent]
     })

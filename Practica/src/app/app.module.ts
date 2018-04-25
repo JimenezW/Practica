@@ -8,6 +8,7 @@ import { AppComponent }  from './app.component';
 
 import { FrutaComponent } from './Components/fruta.component';
 import { EmpleadoComponent } from './Components/empleado.component';
+import { AlumnoComponent } from './Components/alumno.component';
 @NgModule({
     imports: [
         BrowserModule,
@@ -16,7 +17,8 @@ import { EmpleadoComponent } from './Components/empleado.component';
     declarations: [
         AppComponent,
         FrutaComponent,
-        EmpleadoComponent
+        EmpleadoComponent,
+        AlumnoComponent
     ],
   bootstrap:    [ AppComponent ]
 })
