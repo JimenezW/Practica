@@ -7,5 +7,19 @@ import { Alumno } from '../Models/alumno.model'
 export class AlumnoComponent {
     public titulo = 'Componente empleado';
     public Prueba = new Alumno(1, 'Javier', 'Perez', 'Jalpa');
+
+    texto = 'Escribe algo';
+    public Parrafo: string = 'Texto a modificar';
+    constructor() {
+        setTimeout(() => {
+            this.texto = 'por favor';
+        },3000);
+    }
+
+    ModificarTexto() {
+        this.Parrafo = 'Antes existia otro texto';
+    }
+
     
 }
+
