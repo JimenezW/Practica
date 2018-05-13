@@ -7,7 +7,7 @@ import { Alumno } from '../Models/alumno.model'
 export class AlumnoComponent {
     public titulo = 'Componente empleado';
     public Prueba = new Alumno(1, 'Javier', 'Perez', 'Jalpa');
-
+    public nombre: string;
     texto = 'Escribe algo';
     public Parrafo: string = 'Texto a modificar';
     constructor() {

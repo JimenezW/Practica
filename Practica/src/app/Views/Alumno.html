@@ -12,3 +12,18 @@
 <button class="btn btn-success" (click)="ModificarTexto()">Modificar texto</button>
 <input type="text" [placeholder]="texto" [(ngModel)]="Parrafo"/>
 <p>{{Parrafo}}</p>
+<div>
+    <label>Nombre y apellido</label>
+    <input type="text" class="form-control" [(ngModel)]="nombre"/>
+    <button type="submit" class="btn btn-primary" *ngIf="nombre">Enviar</button>
+
+    <button type="submit" class="btn btn-primary" *ngIf="nombre; else desactivado">Desactivo</button>
+    <ng-template #desactivado>
+        <button type="submit" class="btn btn-primary" disabled>Activo</button>
+    </ng-template>
+</div>
+<div>
+    <h3>Ejempo de la directiva ngIf</h3>
+    <hr />
+
+</div>
